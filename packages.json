@@ -1,0 +1,17 @@
+[
+  {
+    "Packages": "vim-gnome",
+    "Section": "editors",
+    "Description": "Vi IMproved - enhanced vi editor - with GNOME2 GUI"
+  },
+  {
+    "Packages": "gimp",
+    "Section": "graphics",
+    "Description": "The GNU Image Manipulation Program"
+  },
+  {
+    "Packages": "tmux",
+    "Section": "admin",
+    "Description": "terminal multiplexer"
+  }
+]

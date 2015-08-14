@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/jquery-2.1.4.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -31,15 +32,51 @@
       </header>
       <section>
         <h1>
-<a id="gubt" class="anchor" href="#gubt" aria-hidden="true"><span class="octicon octicon-link"></span></a>gUBT</h1>
+          <a id="gubt" class="anchor" href="#gubt" aria-hidden="true"><span class="octicon octicon-link"></span></a>gUBT</h1>
 
-<p>gUBT is a quick get ubuntu package service via AptURL.</p>
+        <p>gUBT is a quick get ubuntu package service via AptURL.</p>
+
+        <table>
+          <tr>
+            <th>
+              <input type="checkbox" name="chkClick_all" id="chkClick_all">
+            </th>
+            <th>Package</th>
+            <th>Section</th>
+            <th>Description</th>
+          </tr>
+
+          <!-- foreach -->
+          <tr id="loop_rows">
+            <td align="center">
+              <input name='chkbox[]' type='checkbox' value="$pkg">
+            </td>
+            <td> <a href="apt://$name">$name</a> </td>
+            <td>section</td>
+            <td>description</td>
+          </tr>
+
+        </table>
       </section>
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <script type="text/javascript" charset="utf-8">
+      //var packageData = jQuery.getJSON(packages.json)
+      //alert(packageData[0].Packages);
+      $.getJSON("packages.json", function(package_data) {
+        console.log(package_data); // this will show the info it in firebug console
+        //alert(package_data[0].Packages);
+        //alert(package_data[1].Packages);
+      });
+
+      //document.getElementById("loop_rows").innerHTML = "New text!";
+
+      
+    </script>
 		
   </body>
 </html>

@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Gubt by chusiang</title>
+    <title>gUBT #chusiang</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <script src="javascripts/scale.fix.js"></script>
     <script src="javascripts/jquery-2.1.4.min.js"></script>
+    <script src="javascripts/selectd-to-install-ubuntu.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -17,7 +18,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">Gubt</h1>
+        <h1 class="header">gUBT</h1>
         <p class="header"></p>
 
         <ul>
@@ -55,7 +56,6 @@
       //var packageData = jQuery.getJSON(packages.json)
       //alert(packageData[0].Packages);
       $.getJSON("packages.json", function(package_data) {
-        console.log(package_data); // this will show the info it in firebug console
 
         var new_table = " \
             <table><tr> \
@@ -74,7 +74,7 @@
           new_table += " \
           <tr> \
             <td align='center'> \
-              <input name=chkbox[] type='checkbox' value=" + package + "> \
+              <input name='chkbox[]' type='checkbox' value=" + package + "> \
             </td> \
             <td><a href=apt://" + package + ">" + package + "</a></td> \
             <td>" + section + "</td> \

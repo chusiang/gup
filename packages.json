@@ -13,5 +13,101 @@
     "Packages": "tmux",
     "Section": "admin",
     "Description": "terminal multiplexer"
+  },
+  {
+    "Packages": "git",
+    "Section": "vcs",
+    "Description": "fast, scalable, distributed revision control system"
+  },
+  {
+    "Packages": "irssi",
+    "Section": "net",
+    "Description": "terminal based IRC client"
+  },
+  {
+    "Packages": "rxvt-unicode-256color",
+    "Section": "x11",
+    "Description": "multi-lingual terminal emulator with Unicode support for X11"
+  },
+  {
+    "Packages": "shutter",
+    "Section": "graphics",
+    "Description": "feature-rich screenshot program"
+  },
+  {
+    "Packages": "workrave",
+    "Section": "gnome",
+    "Description": "feature-rich screenshot program"
+  },
+  {
+    "Packages": "autokey",
+    "Section": "utils",
+    "Description": "dummy transitional package for autokey-qt"
+  },
+  {
+    "Packages": "guake",
+    "Section": "x11",
+    "Description": "A drop-down terminal for GNOME Desktop Environment"
+  },
+  {
+    "Packages": "keepassx",
+    "Section": "utils",
+    "Description": "Cross Platform Password Manager"
+  },
+  {
+    "Packages": "quicksynergy",
+    "Section": "net",
+    "Description": "GUI for easy configuration of Synergy"
+  },
+  {
+    "Packages": "sm",
+    "Section": "games",
+    "Description": "Displays a short text fullscreen"
+  },
+  {
+    "Packages": "terminator",
+    "Section": "misc",
+    "Description": "multiple GNOME terminals in one window"
+  },
+  {
+    "Packages": "gcolor2",
+    "Section": "gnome",
+    "Description": "Simple GTK2 color selector and picker"
+  },
+  {
+    "Packages": "freemind",
+    "Section": "editors",
+    "Description": "Java Program for creating and viewing Mindmaps"
+  },
+  {
+    "Packages": "vlc",
+    "Section": "video",
+    "Description": "multimedia player and streamer"
+  },
+  {
+    "Packages": "deadbeff",
+    "Section": "sound",
+    "Description": "Ultimate music player for GNU/Linux systems"
+  },
+  {
+    "Packages": "pidgin",
+    "Section": "net",
+    "Description": "graphical multi-protocol instant messaging client for X"
+  },
+  {
+    "Packages": "compizconfig-settings-manager",
+    "Section": "x11",
+    "Description": "Compizconfig Settings Manager"
+  },
+  {
+    "Packages": "gnome-do",
+    "Section": "gnome",
+    "Description": "Quickly perform actions on your desktop"
+  },
+  {
+    "Packages": "htop",
+    "Section": "utils",
+    "Description": "interactive processes viewer"
   }
+
 ]

@@ -22,6 +22,6 @@ jQuery(document).ready(function() {
 
     //alert("apt://" + varAptList.join(','));		            //對話視窗(apturl)。
     alert("sudo apt-get install " + varAptList.join(' '));	//對話視窗。
-    //location.href="apt://" + varAptList.join(',');	        //導向至 URL。
+    location.href="apt://" + varAptList.join(',');	        //導向至 URL。
   });
 });

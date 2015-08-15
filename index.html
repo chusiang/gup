@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Gubt by chusiang</title>
+    <title>gUBT #chusiang</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/jquery-2.1.4.min.js"></script>
+    <script src="javascripts/selectd-to-install-ubuntu.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,7 +18,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">Gubt</h1>
+        <h1 class="header">gUBT</h1>
         <p class="header"></p>
 
         <ul>
@@ -31,15 +33,62 @@
       </header>
       <section>
         <h1>
-<a id="gubt" class="anchor" href="#gubt" aria-hidden="true"><span class="octicon octicon-link"></span></a>gUBT</h1>
+          <a id="gubt" class="anchor" href="#gubt" aria-hidden="true"><span class="octicon octicon-link"></span></a>gUBT</h1>
 
-<p>gUBT is a quick get ubuntu package service via AptURL.</p>
+        <p>gUBT is a quick get ubuntu package service via AptURL.</p>
+
+        <form name="package_list" method="post" action="" enctype="text/plain">
+          <div id="loop_rows"></div>
+          <div align="center">
+            <input type="button" name="install_button" id="install_button" value="Install" class="btn">
+            <input type="reset" name="reset_button" id="reset_button" value="Reset" class="btn">
+          </div>
+        </form>
+
       </section>
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <script type="text/javascript" charset="utf-8">
+      //var packageData = jQuery.getJSON(packages.json)
+      //alert(packageData[0].Packages);
+      $.getJSON("packages.json", function(package_data) {
+
+        var new_table = " \
+            <table><tr> \
+              <th><input type='checkbox' name='click_all' id='click_all'></th> \
+              <th>Package</th> \
+              <th>Section</th> \
+              <th>Description</th> \
+            </tr>";
+
+        for (var i = 0, l = package_data.length; i < l; i++) {
+
+          var package = package_data[i].Packages;
+          var section = package_data[i].Section;
+          var description = package_data[i].Description;
+
+          new_table += " \
+          <tr> \
+            <td align='center'> \
+              <input name='chkbox[]' type='checkbox' value=" + package + "> \
+            </td> \
+            <td><a href=apt://" + package + ">" + package + "</a></td> \
+            <td>" + section + "</td> \
+            <td>" + description + "</td> \
+          </tr>";
+        }
+
+        new_table += "</table>"
+
+        document.getElementById("loop_rows").innerHTML = new_table;
+
+      });
+      
+    </script>
 		
   </body>
 </html>

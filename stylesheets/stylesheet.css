@@ -58,14 +58,15 @@ header h1 {
 }
 
 header h1:before {
-  content: "./ ";
+  content: "$ ./";
   font-size: 24px;
 }
 
 header h2 {
   font-size: 18px;
   font-weight: 300;
-  color: #666;
+  color: #ccc;
+  margin: 20px 0 20px 0;
 }
 
 #downloads .btn {
@@ -247,7 +248,8 @@ a {
 }
 
 footer {
+  border-top: 1px dashed #b5e853;
   text-align: center;
   padding: 20px 0;
-  margin: 0 0 20px 0;
+  margin: 0px 0 20px 0;
 }

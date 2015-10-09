@@ -108,6 +108,16 @@
     "Packages": "htop",
     "Section": "utils",
     "Description": "interactive processes viewer"
+  },
+  {
+    "Packages": "filezilla",
+    "Section": "universe/net",
+    "Description": "Full-featured graphical FTP/FTPS/SFTP client"
+  },
+  {
+    "Packages": hime",
+    "Section": "universe/utils",
+    "Description": "GTK+ based input method for Chinese users"
   }
 
 ]

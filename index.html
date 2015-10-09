@@ -1,41 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
     <title>gUBT #chusiang</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <script src="javascripts/scale.fix.js"></script>
     <script src="javascripts/jquery.min.js"></script>
     <script src="javascripts/selectd-to-install-ubuntu.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">-->
+
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">gUBT</h1>
-        <p class="header"></p>
 
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/chusiang/gubt/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/chusiang/gubt/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/chusiang/gubt">View On GitHub</a></li>
-        </ul>
+    <header>
+      <div class="container">
+        <h1>gUBT</h1>
+        <h2>gUBT is a quick get ubuntu package service via AptURL.</h2>
 
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/chusiang">chusiang</a></p>
+        <section id="downloads">
+          <a href="https://github.com/chusiang/gubt/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/chusiang/gubt/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/chusiang/gubt" class="btn btn-github" target="_blank"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
+    <div class="container">
+      <section id="main_content">
 
-      </header>
-      <section>
         <h1>
-          <a id="gubt" class="anchor" href="#gubt" aria-hidden="true"><span class="octicon octicon-link"></span></a>gUBT</h1>
+          <a id="desc" class="anchor" href="#desc" aria-hidden="true">
+            <span class="octicon octicon-link"></span>
+          </a>Description
+        </h1>
 
-        <p>gUBT is a quick get ubuntu package service via AptURL.</p>
+        <ol>
+          <li>Install package with single.
+           <ul>
+            <li>Click <u>package name</u>, like <a href="apt://vim-gnome" title="GVim">me</a>.</li>
+           </ul>
+          </li>
+          <br />
+          <li>Install package with batch.
+            <ul>
+              <li>Click <u>Install</u> button after click some <u>checkbox</u>, like
+                <input class="checkbox_list" type="checkbox" value=""/>.</li>
+            </ul>
+          </li>
+        </ol>
+
+        <h1>
+          <a id="main" class="anchor" href="#main" aria-hidden="true">
+            <span class="octicon octicon-link"></span>
+          </a>Main
+        </h1>
 
         <form name="package_list" method="post" action="" enctype="text/plain">
           <table>
@@ -49,17 +78,16 @@
           </table>
 
           <div align="center">
-            <input type="button" name="install_button" id="install_button" value="Install" class="btn"/ >
             <input type="reset" name="reset_button" id="reset_button" value="Reset" class="btn"/>
+            <input type="button" name="install_button" id="install_button" value="Install" class="btn"/ >
           </div>
         </form>
 
       </section>
       <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+	      <small>Coypright © from 2015 <a href='http://note.drx.tw/p/about-chu-siang-lai.html' target='_blank'>chusiang</a> GPL v2 or later.</small>
       </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
     <script type="text/javascript" charset="utf-8">
 

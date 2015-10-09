@@ -172,5 +172,17 @@
     "Section": "devel",
     "Description": "Persistent group chat using XMPP",
     "Website": "https://www.hipchat.com/downloads#linux"
+  },
+  {
+    "Packages": "tree",
+    "Section": "universe/utils",
+    "Description": "displays an indented directory tree, in color",
+    "Website": ""
+  },
+  {
+    "Packages": "whois",
+    "Section": "net",
+    "Description": "intelligent WHOIS client",
+    "Website": ""
   }
 ]

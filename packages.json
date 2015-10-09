@@ -2,112 +2,175 @@
   {
     "Packages": "vim-gnome",
     "Section": "editors",
-    "Description": "Vi IMproved - enhanced vi editor - with GNOME2 GUI"
+    "Description": "Vi IMproved - enhanced vi editor - with GNOME2 GUI",
+    "Website": ""
   },
   {
     "Packages": "gimp",
     "Section": "graphics",
-    "Description": "The GNU Image Manipulation Program"
+    "Description": "The GNU Image Manipulation Program",
+    "Website": ""
   },
   {
     "Packages": "tmux",
     "Section": "admin",
-    "Description": "terminal multiplexer"
+    "Description": "terminal multiplexer",
+    "Website": ""
   },
   {
     "Packages": "git",
     "Section": "vcs",
-    "Description": "fast, scalable, distributed revision control system"
+    "Description": "fast, scalable, distributed revision control system",
+    "Website": ""
   },
   {
     "Packages": "irssi",
     "Section": "net",
-    "Description": "terminal based IRC client"
+    "Description": "terminal based IRC client",
+    "Website": ""
   },
   {
     "Packages": "rxvt-unicode-256color",
     "Section": "x11",
-    "Description": "multi-lingual terminal emulator with Unicode support for X11"
+    "Description": "multi-lingual terminal emulator with Unicode support for X11",
+    "Website": ""
   },
   {
     "Packages": "shutter",
     "Section": "graphics",
-    "Description": "feature-rich screenshot program"
+    "Description": "feature-rich screenshot program",
+    "Website": ""
   },
   {
     "Packages": "workrave",
     "Section": "gnome",
-    "Description": "feature-rich screenshot program"
+    "Description": "feature-rich screenshot program",
+    "Website": ""
   },
   {
     "Packages": "autokey",
     "Section": "utils",
-    "Description": "dummy transitional package for autokey-qt"
+    "Description": "dummy transitional package for autokey-qt",
+    "Website": ""
   },
   {
     "Packages": "guake",
     "Section": "x11",
-    "Description": "A drop-down terminal for GNOME Desktop Environment"
+    "Description": "A drop-down terminal for GNOME Desktop Environment",
+    "Website": ""
   },
   {
     "Packages": "keepassx",
     "Section": "utils",
-    "Description": "Cross Platform Password Manager"
+    "Description": "Cross Platform Password Manager",
+    "Website": ""
   },
   {
     "Packages": "quicksynergy",
     "Section": "net",
-    "Description": "GUI for easy configuration of Synergy"
+    "Description": "GUI for easy configuration of Synergy",
+    "Website": ""
   },
   {
     "Packages": "sm",
     "Section": "games",
-    "Description": "Displays a short text fullscreen"
+    "Description": "Displays a short text fullscreen",
+    "Website": ""
   },
   {
     "Packages": "terminator",
     "Section": "misc",
-    "Description": "multiple GNOME terminals in one window"
+    "Description": "multiple GNOME terminals in one window",
+    "Website": ""
   },
   {
     "Packages": "gcolor2",
     "Section": "gnome",
-    "Description": "Simple GTK2 color selector and picker"
+    "Description": "Simple GTK2 color selector and picker",
+    "Website": ""
   },
   {
     "Packages": "freemind",
     "Section": "editors",
-    "Description": "Java Program for creating and viewing Mindmaps"
+    "Description": "Java Program for creating and viewing Mindmaps",
+    "Website": ""
   },
   {
     "Packages": "vlc",
     "Section": "video",
-    "Description": "multimedia player and streamer"
+    "Description": "multimedia player and streamer",
+    "Website": ""
   },
   {
     "Packages": "deadbeff",
     "Section": "sound",
-    "Description": "Ultimate music player for GNU/Linux systems"
+    "Description": "Ultimate music player for GNU/Linux systems",
+    "Website": ""
   },
   {
     "Packages": "pidgin",
     "Section": "net",
-    "Description": "graphical multi-protocol instant messaging client for X"
+    "Description": "graphical multi-protocol instant messaging client for X",
+    "Website": ""
   },
   {
     "Packages": "compizconfig-settings-manager",
     "Section": "x11",
-    "Description": "Compizconfig Settings Manager"
+    "Description": "Compizconfig Settings Manager",
+    "Website": ""
   },
   {
     "Packages": "gnome-do",
     "Section": "gnome",
-    "Description": "Quickly perform actions on your desktop"
+    "Description": "Quickly perform actions on your desktop",
+    "Website": ""
   },
   {
     "Packages": "htop",
     "Section": "utils",
-    "Description": "interactive processes viewer"
+    "Description": "interactive processes viewer",
+    "Website": ""
+  },
+  {
+    "Packages": "filezilla",
+    "Section": "universe/net",
+    "Description": "Full-featured graphical FTP/FTPS/SFTP client",
+    "Website": ""
+  },
+  {
+    "Packages": "hime",
+    "Section": "universe/utils",
+    "Description": "GTK+ based input method for Chinese users",
+    "Website": ""
+  },
+  {
+    "Packages": "docker.io",
+    "Section": "universe/admin",
+    "Description": " Linux container runtime",
+    "Website": ""
+  },
+  {
+    "Packages": "nodejs",
+    "Section": "universe/web",
+    "Description": "evented I/O for V8 javascript",
+    "Website": ""
+  },
+  {
+    "Packages": " corebird",
+    "Section": "misc",
+    "Description": "Native Gtk+ Twitter client for the Linux desktop",
+    "Website": "https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/corebird"
+  },
+  {
+    "Packages": "unity-tweak-tool",
+    "Section": "universe/gnome",
+    "Description": "configuration tool for the Unity desktop environment",
+    "Website": ""
+  },
+  {
+    "Packages": "hipchat",
+    "Section": "devel",
+    "Description": "Persistent group chat using XMPP",
+    "Website": "https://www.hipchat.com/downloads#linux"
   }
-
 ]

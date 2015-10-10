@@ -184,5 +184,11 @@
     "Section": "net",
     "Description": "intelligent WHOIS client",
     "Website": ""
+  },
+  {
+    "Packages": "moc",
+    "Section": "universe/sound",
+    "Description": "ncurses based console audio player",
+    "Website": ""
   }
 ]

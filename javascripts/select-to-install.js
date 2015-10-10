@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
 
-  // click select all chkbox.
+  // click select all checkbox.
   $('#click_all').click(function(event) {
     if(this.checked) {
       $('.checkbox_list').each(function() {
@@ -20,9 +20,11 @@ jQuery(document).ready(function() {
       apt_list.push( $(this).val() );
     });
 
-    //alert("apt://" + apt_list.join(','));		            //對話視窗 (apturl)。
-    alert("sudo apt-get install " + apt_list.join(' '));	//對話視窗。
-    location.href="apt://" + apt_list.join(',');	        //導向至 URL。
+    //Alert window.
+    alert("If it's not working, you can execute this on terminal. \n\nsudo apt-get install " + apt_list.join(' '));	
+
+    //Track the apturl service.
+    location.href="apt://" + apt_list.join(',');
   });
 
 });

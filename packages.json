@@ -184,5 +184,17 @@
     "Section": "net",
     "Description": "intelligent WHOIS client",
     "Website": ""
+  },
+  {
+    "Packages": "thoggen",
+    "Section": "video",
+    "Description": "DVD backup utility based on GStreamer and Gtk+",
+    "Website": "http://thoggen.net/"
+  },
+  {
+    "Packages": "handbrake-gtk",
+    "Section": "video",
+    "Description": "Versatile DVD ripper and video transcoder (GTK GUI)",
+    "Website": "http://www.handbrake.fr/"
   }
 ]

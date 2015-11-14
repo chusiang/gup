@@ -156,7 +156,7 @@
     "Website": ""
   },
   {
-    "Packages": " corebird",
+    "Packages": "corebird",
     "Section": "misc",
     "Description": "Native Gtk+ Twitter client for the Linux desktop",
     "Website": "https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/corebird"

@@ -11,6 +11,7 @@
     <title>gup #chusiang</title>
 
     <script src="javascripts/jquery.min.js"></script>
+<!--    <script src="javascripts/jquery-ui.min.js"></script>-->
     <script src="javascripts/select-to-install.js"></script>
 
     <!--[if lt IE 9]>
@@ -73,13 +74,17 @@
 
         <form name="package_list" method="post" action="" enctype="text/plain">
           <table>
-            <tr>
-              <th><input type='checkbox' id='click_all'/></th>
-              <th>Package</th>
-              <th>Section</th>
-              <th>Description</th>
-            </tr>
-            <tbody id="loop_rows"></tbody>
+            <thead id="headings">
+              <tr>
+                <th><input type='checkbox' id='click_all'/></th>
+                <th>Package</th>
+                <th>Section</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody id="loop_rows">
+              <!-- this will be auto-populated -->
+            </tbody>
           </table>
 
           <div align="center">
@@ -98,15 +103,50 @@
 
     <script>
 
+      var arr = ""
+
       $.getJSON("packages.json", function(package_data) {
+
+        var arr = $.map(package_data, function(el) { return el });
+
+
+
+        $(function() {
+          $('#headings th').click(function() {
+            var id = $(this).attr('id');
+            var asc = (!$(this).attr('asc')); // switch the order, true if not set
+        
+            // set asc="asc" when sorted in ascending order
+            $('#headings th').each(function() {
+              $(this).removeAttr('asc');
+            });
+            if (asc) $(this).attr('asc', 'asc');
+        
+            sortResults(id, asc);
+          });
+        
+          showResults();
+        });
+
+      function sortResults(prop, asc) {
+
+        arr = arr.sort(function(a, b) {
+            if (asc) return (a[prop] > b[prop]);
+            else return (b[prop] > a[prop]);
+        });
+        showResults();
+      }
+
+
+      function showResults () {
 
         var new_table = "";
 
-        for (var i = 0, l = package_data.length; i < l; i++) {
+        for (var i in arr) {
 
-          var pkg_name = package_data[i].Packages;
-          var section = package_data[i].Section;
-          var description = package_data[i].Description;
+          var pkg_name = arr[i].Packages;
+          var section = arr[i].Section;
+          var description = arr[i].Description;
 
           new_table += " \
           <tr> \
@@ -119,7 +159,11 @@
           </tr>";
         }
 
-        document.getElementById("loop_rows").innerHTML = new_table;
+        //document.getElementById("loop_rows").innerHTML = new_table;
+        $('#loop_rows').html(new_table);
+
+      }
+
 
       });
 

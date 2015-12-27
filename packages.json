@@ -186,6 +186,12 @@
     "Website": ""
   },
   {
+    "Packages": "moc",
+    "Section": "universe/sound",
+    "Description": "ncurses based console audio player",
+    "Website": ""
+  },
+  {
     "Packages": "thoggen",
     "Section": "video",
     "Description": "DVD backup utility based on GStreamer and Gtk+",

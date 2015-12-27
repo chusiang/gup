@@ -202,5 +202,11 @@
     "Section": "video",
     "Description": "Versatile DVD ripper and video transcoder (GTK GUI)",
     "Website": "http://www.handbrake.fr/"
+  },
+  {
+    "Packages": "ansible",
+    "Section": "admin",
+    "Description": "Configuration management, deployment, and task execution system",
+    "Website": "http://www.ansible.com/"
   }
 ]

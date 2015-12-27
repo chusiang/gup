@@ -202,5 +202,11 @@
     "Section": "admin",
     "Description": "Configuration management, deployment, and task execution system",
     "Website": "http://www.ansible.com/"
+  },
+  {
+    "Packages": "ack-grep",
+    "Section": "utils",
+    "Description": "grep-like program specifically for large source trees",
+    "Website": "http://beyondgrep.com/"
   }
 ]

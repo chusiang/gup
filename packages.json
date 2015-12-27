@@ -190,5 +190,29 @@
     "Section": "universe/sound",
     "Description": "ncurses based console audio player",
     "Website": ""
+  },
+  {
+    "Packages": "thoggen",
+    "Section": "video",
+    "Description": "DVD backup utility based on GStreamer and Gtk+",
+    "Website": "http://thoggen.net/"
+  },
+  {
+    "Packages": "handbrake-gtk",
+    "Section": "video",
+    "Description": "Versatile DVD ripper and video transcoder (GTK GUI)",
+    "Website": "http://www.handbrake.fr/"
+  },
+  {
+    "Packages": "ansible",
+    "Section": "admin",
+    "Description": "Configuration management, deployment, and task execution system",
+    "Website": "http://www.ansible.com/"
+  },
+  {
+    "Packages": "ack-grep",
+    "Section": "utils",
+    "Description": "grep-like program specifically for large source trees",
+    "Website": "http://beyondgrep.com/"
   }
 ]

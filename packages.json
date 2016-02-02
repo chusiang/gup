@@ -214,5 +214,11 @@
     "Section": "utils",
     "Description": "grep-like program specifically for large source trees",
     "Website": "http://beyondgrep.com/"
+  },
+  {
+    "Packages": "goaccess",
+    "Section": "utils",
+    "Description": "log analyzer and interactive viewer for the Apache Webserver",
+    "Website": "http://goaccess.io"
   }
 ]

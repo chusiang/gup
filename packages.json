@@ -219,6 +219,12 @@
     "Packages": "goaccess",
     "Section": "utils",
     "Description": "log analyzer and interactive viewer for the Apache Webserver",
-    "Website": "http://goaccess.io"
+    "Website": "http://goaccess.io/"
+  },
+  {
+    "Packages": "audacious",
+    "Section": "sound",
+    "Description": "small and fast audio player which supports lots of formats",
+    "Website": "http://audacious-media-player.org/"
   }
 ]

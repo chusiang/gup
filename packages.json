@@ -102,7 +102,7 @@
     "Website": ""
   },
   {
-    "Packages": "deadbeff",
+    "Packages": "deadbeef",
     "Section": "sound",
     "Description": "Ultimate music player for GNU/Linux systems",
     "Website": ""
@@ -133,25 +133,25 @@
   },
   {
     "Packages": "filezilla",
-    "Section": "universe/net",
+    "Section": "net",
     "Description": "Full-featured graphical FTP/FTPS/SFTP client",
     "Website": ""
   },
   {
     "Packages": "hime",
-    "Section": "universe/utils",
+    "Section": "utils",
     "Description": "GTK+ based input method for Chinese users",
     "Website": ""
   },
   {
     "Packages": "docker.io",
-    "Section": "universe/admin",
+    "Section": "admin",
     "Description": " Linux container runtime",
     "Website": ""
   },
   {
     "Packages": "nodejs",
-    "Section": "universe/web",
+    "Section": "web",
     "Description": "evented I/O for V8 javascript",
     "Website": ""
   },
@@ -163,7 +163,7 @@
   },
   {
     "Packages": "unity-tweak-tool",
-    "Section": "universe/gnome",
+    "Section": "gnome",
     "Description": "configuration tool for the Unity desktop environment",
     "Website": ""
   },
@@ -175,7 +175,7 @@
   },
   {
     "Packages": "tree",
-    "Section": "universe/utils",
+    "Section": "utils",
     "Description": "displays an indented directory tree, in color",
     "Website": ""
   },
@@ -187,7 +187,7 @@
   },
   {
     "Packages": "moc",
-    "Section": "universe/sound",
+    "Section": "sound",
     "Description": "ncurses based console audio player",
     "Website": ""
   },

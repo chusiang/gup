@@ -226,5 +226,11 @@
     "Section": "sound",
     "Description": "small and fast audio player which supports lots of formats",
     "Website": "http://audacious-media-player.org/"
+  },
+  {
+    "Packages": "nload",
+    "Section": "net",
+    "Description": "realtime console network usage monitor",
+    "Website": "http://www.roland-riegel.de/nload/"
   }
 ]

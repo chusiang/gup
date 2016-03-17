@@ -232,5 +232,11 @@
     "Section": "net",
     "Description": "realtime console network usage monitor",
     "Website": "http://www.roland-riegel.de/nload/"
+  },
+  {
+    "Packages": "pandoc",
+    "Section": "text",
+    "Description": "general markup converter",
+    "Website": "http://johnmacfarlane.net/pandoc/"
   }
 ]

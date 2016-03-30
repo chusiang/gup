@@ -238,5 +238,11 @@
     "Section": "text",
     "Description": "general markup converter",
     "Website": "http://johnmacfarlane.net/pandoc/"
+  },
+  {
+    "Packages": "fondu",
+    "Section": "utils",
+    "Description": "convert between Mac and UNIX font formats.",
+    "Website": "http://www.sourceforge.net/projects/fondu"
   }
 ]

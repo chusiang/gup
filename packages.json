@@ -244,5 +244,47 @@
     "Section": "utils",
     "Description": "convert between Mac and UNIX font formats.",
     "Website": "http://www.sourceforge.net/projects/fondu"
+  },
+  {
+    "Packages": "mytop",
+    "Section": "utils",
+    "Description": "top like query monitor for MySQL",
+    "Website": "http://www.mysqlfanboy.com/mytop/"
+  },
+  {
+    "Packages": "iotop",
+    "Section": "admin",
+    "Description": "simple top-like I/O monitor",
+    "Website": "http://guichaz.free.fr/iotop/"
+  },
+  {
+    "Packages": "iftop",
+    "Section": "net",
+    "Description": "displays bandwidth usage information on an network interface",
+    "Website": "http://www.ex-parrot.com/~pdw/iftop/"
+  },
+  {
+    "Packages": "apachetop",
+    "Section": "admin",
+    "Description": "Realtime Apache monitoring tool",
+    "Website": "http://www.webta.org/projects/apachetop/"
+  },
+  {
+    "Packages": "pgtop",
+    "Section": "misc",
+    "Description": "PostgreSQL performance monitoring tool akin to top",
+    "Website": "http://ptop.projects.postgresql.org/"
+  },
+  {
+    "Packages": "tcpdump",
+    "Section": "net",
+    "Description": "command-line network traffic analyzer",
+    "Website": "http://www.tcpdump.org/"
+  },
+  {
+    "Packages": "",
+    "Section": "",
+    "Description": "",
+    "Website": ""
   }
 ]

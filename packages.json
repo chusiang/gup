@@ -282,9 +282,9 @@
     "Website": "http://www.tcpdump.org/"
   },
   {
-    "Packages": "",
-    "Section": "",
-    "Description": "",
-    "Website": ""
+    "Packages": "tmate",
+    "Section": "admin",
+    "Description": "Fork of tmux, provides an instant pairing solution",
+    "Website": "https://tmate.io"
   }
 ]

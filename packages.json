@@ -286,5 +286,11 @@
     "Section": "admin",
     "Description": "Fork of tmux, provides an instant pairing solution",
     "Website": "https://tmate.io"
+  },
+  {
+    "Packages": "httping",
+    "Section": "net",
+    "Description": "ping-like program for http-requests",
+    "Website": "http://www.vanheusden.com/httping"
   }
 ]

@@ -292,5 +292,11 @@
     "Section": "net",
     "Description": "ping-like program for http-requests",
     "Website": "http://www.vanheusden.com/httping"
+  },
+  {
+    "Packages": "cmatrix",
+    "Section": "misc",
+    "Description": "simulates the display from 'The Matrix'",
+    "Website": "http://www.asty.org/cmatrix/"
   }
 ]

@@ -298,5 +298,11 @@
     "Section": "misc",
     "Description": "simulates the display from 'The Matrix'",
     "Website": "http://www.asty.org/cmatrix/"
+  },
+  {
+    "Packages": "wicd",
+    "Section": "net",
+    "Description": "wired and wireless network manager - metapackage",
+    "Website": "http://wicd.sourceforge.net/"
   }
 ]

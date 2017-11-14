@@ -304,5 +304,11 @@
     "Section": "net",
     "Description": "wired and wireless network manager - metapackage",
     "Website": "http://wicd.sourceforge.net/"
+  },
+  {
+    "Packages": "lnav",
+    "Section": "admin",
+    "Description": "ncurses-based log file viewer",
+    "Website": "http://lnav.org"
   }
 ]
